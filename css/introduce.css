@@ -1,0 +1,17 @@
+/* introduce css*/
+div a{
+    display: block;
+    width: 100px;
+    height: 80px;
+    background-color: #3064bb;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+    font-size: 18px;
+}
+
+div a:hover{
+    background-color: #608dd9;
+}
+

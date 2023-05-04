@@ -4,85 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-body {
-    position: relative;
-    background-color: #fff;
-    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,微软雅黑,Arial,sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.7;
-    color: #403e3e;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    -moz-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-}
-
-.navbar-toggle {
-    position: absolute;
-    top: 1.5rem;
-    left: 100px;
-    border: none;
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,.5);
-    color: #fff;
-    transition: all .3s ease-in-out;
-    opacity: .5
-}
-
-.navbar-toggle:hover {
-    opacity: 1
-}
-
-.navbar-toggle:before {
-    content: "导航";
-    font-family: remixicon;
-    font-size: larger
-}
-.lie {
-      width: 100px;
-      height: 500px;
-      background-color: #403e3e;
-      margin-top: 40px;
-      position: absolute;
-      left: 0px;
-      z-index: 200;
-    }
-.nb
-{
-
-}
-    </style>
+    <title>Jiangliuer</title>
+    <link rel="stylesheet" href="../css/introduce.css">
 </head>
 <body>
-    <div class="bu">
-        <button class="navbar-toggle"></button>
-    </div>
+<div class="navigation">
+    <a href="#" >主页</a>
+    <a href="./share.html" target="_blank">分享</a>
+    <a href="#" >关于我</a>
+</div>
 
-    <div class="lie">
-        <ul class="na">
-            <li class="nb"><a href="#">首页</a></li>
-            <li class="nb"><a href="#">资源</a></li>
-            <li class="nb"><a href="#">网站</a></li>
-            <li class="nb"><a href="#">关于</a></li>
-    <div>
 </body>
-<script>
-let sidebar = document.getElementsByClassName('lie')[0];
-  function show(){
-    sidebar.style.left = '0px';
-  }
-  function hide(){
-    sidebar.style.left = '-100px';
-  }
-  document.getElementsByClassName('navbar-toggle')[0].onclick = function(){
-    if(sidebar.style.left != '-100px'){
-      hide();
-    }else {show();}
-  };
-</script>
 </html>

@@ -1,0 +1,19 @@
+/* css */
+/* table{
+    color:red;
+} */
+
+#bule{
+color:blue;
+font-size: 30px;
+}
+
+div{
+    font: 30px 楷体;
+    text-align: center;
+    color: rgb(25,25,25);
+}
+
+a:hover{
+    color:gold;
+}

@@ -1,9 +1,29 @@
 /* introduce css*/
+body {
+    position: relative;
+    background-color: #fff;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,微软雅黑,Arial,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.7;
+    color: #403e3e;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+div.navigation{
+    margin-top: 40px;
+    position: absolute;
+    left: 0px;
+}
+
 div a{
     display: block;
     width: 100px;
     height: 80px;
-    background-color: #3064bb;
+    background-color: #403e3e;
     color: #fff;
     text-decoration: none;
     text-align: center;

@@ -32,6 +32,10 @@ div a{
     text-align: center;
     line-height: 80px; 
     font-size: 18px;
+    /* background-color: var(--background-color); */
+    /* box-shadow: 1px 1px 1px 1px var(--shadow-color); */
+    /*transition: transition-property transition-duration transition-timing-function transition-delay;*/
+    transition: all 0.7s ease 0ms;
     /* position: absolute;
     left: 0px;
     z-index: 200; */

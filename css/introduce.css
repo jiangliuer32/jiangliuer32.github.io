@@ -11,18 +11,34 @@ body {
     overflow-x: hidden;
     -moz-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    margin:0px;background: url(../src/huoying.webp) no-repeat;background-size:100% 100%;background-attachment:fixed;
+
 }
+
+div.intent{
+    display: block;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 180px;
+    left: 800px;
+    /* background-color: aqua; */
+    text-align: center;
+
+}
+
+
 
 div img{
     display: block;
 }
 div.navigation{
-    display: block;
     position: absolute;
+    top: 0px;
     left: 0px;
 }
 
-div a{
+.navigation a{
     display: block;
     width: 100px;
     height: 80px;
@@ -31,17 +47,33 @@ div a{
     text-decoration: none;
     text-align: center;
     line-height: 80px; 
-    font-size: 18px;
-    /* background-color: var(--background-color); */
-    /* box-shadow: 1px 1px 1px 1px var(--shadow-color); */
-    /*transition: transition-property transition-duration transition-timing-function transition-delay;*/
-    transition: all 0.7s ease 0ms;
-    /* position: absolute;
-    left: 0px;
-    z-index: 200; */
+    font-size: 18px
 }
 
 div a:hover{
     background-color: #608dd9;
 }
 
+.navigationBar{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    border: none;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    transition: all .3s ease-in-out;
+    opacity: .5
+}
+
+.navigationBar:hover {
+    opacity: 1
+}
+
+.navigationBar:before {
+    content: "导航";
+    font-family: remixicon;
+    font-size: larger
+}

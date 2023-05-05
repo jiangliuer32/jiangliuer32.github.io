@@ -9,7 +9,17 @@
 </head>
 <body>
 <div>
-    <div class="navigation">
+    <div class="intent">
+        <span>永远相信美好的事情即将发生</span>
+        <br>
+        <span>联系我:</span>
+        <br>
+        <a href="https://blog.csdn.net/weixin_51322568?type=blog" target="_blank">CSDN</a>
+        <br>
+        <a href="https://github.com/jiangliuer32" target="_blank">Github</a>
+    </div>
+
+    <div class="navigation" id="na" style="display:none">
         <a href="#">
             <img src="./src/logo.jpg" alt="logo" width="100px" height="80px">
         </a>
@@ -17,6 +27,22 @@
         <a href="./page/share.html" target="_blank">分享</a>
         <a href="#" >关于我</a>
     </div>
+    <div class="button">
+        <button class="navigationBar" id="bu"></button>
+    </div>
 </div>
 </body>
+<script>
+  window.onload=function(){
+    var obt=document.getElementById("bu");
+    var odiv=document.getElementById("na");
+  obt.onclick=function(){
+    if(odiv.style.display=="none"){
+    odiv.style.display="block";
+    }
+  else{
+    odiv.style.display="none";
+    }
+      }}
+</script>
 </html>

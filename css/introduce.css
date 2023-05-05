@@ -56,7 +56,7 @@ div a:hover{
 
 .navigationBar{
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 100px;
     border: none;
     height: 4rem;
